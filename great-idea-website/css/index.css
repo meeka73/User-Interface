@@ -65,9 +65,9 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 .container {
-	margin: auto;
-	width: 900px; */
-	border: 5px solid orange;
+	margin-left: 17%;
+	width: 70%;
+	/* border: 5px solid orange; */
 }
 
 nav {
@@ -75,27 +75,41 @@ nav {
 
 }
 
+@keyframes nav {
+    from {background: none;
+          color: gray}
+    to { background: lightgray;
+          color: black;}
+  }
+  
+nav {
+    animation-name: nav;
+	animation-duration: 8s;
+}
+
 a {
 	text-decoration: none;
 	color: gray;
 	padding: 15px;
-	margin: 0.25px;
+	
 
 }
 
 .navigation-bar {
 	background-color: lightblue;
-	width: 100%;
+	width: 70%;
 	height: 50px;
-	margin-top: -2%;
 	border-bottom: 3%;
 	position: fixed;
 	float: top;
+	margin-right: 5%;
+	padding-top: 10px;
 	
 }
 
 .logo {
-	margin-left: 20%;
+	margin-left: 13%;
+	
 	
 }
 
@@ -114,7 +128,7 @@ a {
 	vertical-align: top;
 	padding: 15px;
 	margin-top: 5%;
-	
+			
 }
 
 h1 {
@@ -133,9 +147,8 @@ button {
 .header-img {
 	max-width: 40%;
 	display: inline-block;
-	float: right;
 	margin-top: 2%;
-	margin-right: 3%;
+	margin-left: 13%;
 		
 }
 
